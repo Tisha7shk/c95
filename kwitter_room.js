@@ -1,6 +1,26 @@
 
 //ADD YOUR FIREBASE LINKS
-
+//var firebaseConfig = 
+//{ 
+//apiKey: "AIzaSyBcXugCtd6Af0ElfEKkRwrp89KCh6sg8wA", 
+//authDomain: "kwittr-1b192.firebaseapp.com", 
+//projectId: "kwittr-1b192", 
+//storageBucket: "kwittr-1b192.appspot.com", 
+//messagingSenderId: "427545167776", 
+//appId: "1:427545167776:web:f6a86207da51e6e86a06c5", 
+//measurementId: "G-P56LGRMDGZ" 
+//}; 
+// Initialize Firebase 
+var firebaseConfig = {
+  apiKey: "AIzaSyC7rvhJUPj-96m387rh8220wAPX1kpvqaw",
+  authDomain: "jsdbtest.firebaseapp.com",
+  databaseURL: "https://jsdbtest.firebaseio.com",
+  projectId: "jsdbtest",
+  storageBucket: "jsdbtest.appspot.com",
+  messagingSenderId: "557097620929",
+  appId: "1:557097620929:web:d549209de61a48b20b8b40"
+};
+firebase.initializeApp(firebaseConfig);
   user_name = localStorage.getItem("user_name");
 
 document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
